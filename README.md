@@ -4,7 +4,7 @@ The threat of toxic, insulting, and hateful comments online can prevent quality 
 
 Because the dataset consisted of various written-speech samples (with corresponded labels), this project required utilizing Natural Language Processing (NLP) tools. I used two main NLP approaches in order to create an ensemble model with relatively high accuracy as measured by mean area under the curve (AUC) for the six different categories. 
 
-# Methods
+## Methods
 The first method involved using Term Frequency-Inverse Document Frequency (TF-IDF) transformation of both words and characters of varying lengths. This transformed sparse vectors were then fed into Naive-Bayes / Logistic Regression algorithms to create simple linear predictions. The second method involved using Gated Recurrent Unit (GRU) neural networks with trainable embedding for the chosen word vectors. I tried out three different word embeddings of varying length and training source. The outputs from all the models were simply averaged together in order to create an ensemble model.
 
 Methods Utilized:

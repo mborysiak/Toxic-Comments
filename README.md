@@ -1,6 +1,6 @@
 # Toxic Comment Classification
 ## Overview
-The threat of toxic, insulting, and hateful comments online can prevent quality discourse about topics on the internet. This Kaggle challenge sought to develop algorithms that can detect different types of negative online comments, including: toxic, severe toxic, insult, identity hate, threats, and obscenities. 
+The threat of toxic, insulting, and hateful comments online can prevent quality discourse about topics on the internet. This Kaggle challenge sought to develop algorithms that can detect different types of negative online comments, including: toxic, severe toxic, insult, identity hate, threats, and obscenities. See here for more information: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge.
 
 Because the dataset consisted of various written-speech samples (with corresponding labels), this project required utilizing Natural Language Processing (NLP) tools. I used two main NLP approaches in order to create an ensemble model with relatively high accuracy as measured by mean area under the curve (AUC) for the six different categories. 
 

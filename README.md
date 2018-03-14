@@ -16,5 +16,5 @@ In the end, the best leaderboard and cross-validation score was achieved when si
 
 There are three different notebooks that make up the total project:
 1. TF-IDF Linear Model
-2. GRU Models with Embeddings
+2. Recurrent Neural Network Models with Embeddings
 3. Ensemble Averaging of Results
